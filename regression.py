@@ -56,7 +56,7 @@ y_pred = model.predict(x)
 print(f"Predicted Array Response: {y_pred}")
 
 plt.scatter(x,y)
-plt.plot(x, y_pred)
+plt.plot(x, y_pred, color='red', marker='o', linestyle='dashed',linewidth=2, markersize=12)
 plt.show()
 
 # calculate the future value with single value
